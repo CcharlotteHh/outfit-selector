@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+   
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentContainer{
+    height: 75%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.imgContainer{
+    display: flex;
+    height: 25%;
+    align-items: center;
+   
+}
+
+.imgContainer button{
+    height: 20%;
+}
+
+figure{
+    height: 100%;
+    width: 70%;
+}
+
+figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
